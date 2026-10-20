@@ -1,0 +1,42 @@
+{
+  "focus/explore": {
+    "applicable": {"input": "桌面应用已有本地模式，用户提出尚未确定的云同步想法，原实施 Context 正在完成离线存储。", "expectation": "必要时独立探索云同步，保持原工作归属；继承问题、约束与相关证据。"},
+    "inapplicable": {"input": "用户明确要求把已有按钮文字改为保存，现有 Context 能直接处理。", "expectation": "继续已有 Context，不为了探索方法新建线程。"},
+    "feedback": {"input": "探索过程中用户否定云服务，要求只研究局域网同步。", "expectation": "以最新约束调整探索，原云方案仅保留必要历史证据。"}
+  },
+  "focus/diagnose": {
+    "applicable": {"input": "用户否定已交付的设置页，指出主要原因可能是操作路径过长，但原 Context 还没有发布诊断。", "expectation": "先让原 Context 分析准确反馈与文件版本，等待真实诊断后再规划重做。"},
+    "inapplicable": {"input": "用户认可方案，只需要修正文案中的错字。", "expectation": "继续已有工作，不组织独立诊断和重做。"},
+    "feedback": {"input": "诊断发布后用户纠正：视觉风格可保留，真正问题是权限设置难以找到。", "expectation": "继承最新纠正和真实诊断，保留有效成果，不再沿用已被否定的诊断假设。"}
+  },
+  "focus/compete": {
+    "applicable": {"input": "有两种本地索引方案，需要以共同数据集、延迟和内存标准比较，执行容量只允许一个实验同时运行。", "expectation": "从共同基线组织独立候选，遵守容量，依据真实实验结果比较。"},
+    "inapplicable": {"input": "索引方案已有充分验证，用户只要求修复其中一个确定的边界错误。", "expectation": "继续已有修复，不重复制造竞争候选。"},
+    "feedback": {"input": "实验尚未完成时用户把内存上限降到原来的一半。", "expectation": "更新共同评价条件，重新检查候选适用性，不提前宣布胜者。"}
+  },
+  "focus/split": {
+    "applicable": {"input": "数据接口已确认，文档与客户端可以独立推进；迁移实施依赖尚未完成的数据兼容验证。", "expectation": "按职责与隔离条件并行，迁移等待真实验证结果后推进。"},
+    "inapplicable": {"input": "一个 Context 可以直接完成同一函数内的简单修改。", "expectation": "继续已有 Context，不做形式化拆分。"},
+    "feedback": {"input": "用户更改接口返回字段，客户端已经开始，文档尚未交付。", "expectation": "更新受影响工作与接口约束，保留不受影响成果，不把旧接口当作当前要求。"}
+  },
+  "focus/revise": {
+    "applicable": {"input": "已确认采用远程存储，用户现在明确改为仅本地，认证工作与界面工作均在进行。", "expectation": "识别受影响工作，传递新决定与修订关系，保留有效成果。"},
+    "inapplicable": {"input": "用户只是询问本地方案的优缺点，尚未改变已确认决定。", "expectation": "讨论不自动升级为决定，不以推测替换当前要求。"},
+    "feedback": {"input": "改为仅本地后，用户补充仍需手动导出文件，不需要联网。", "expectation": "纳入最新补充，不恢复被替代的远程存储要求。"}
+  },
+  "focus/combine": {
+    "applicable": {"input": "两个 Context 已发布真实 revision，一个有验证数据，一个有实现结果，两者对一个边界条件结论不同。", "expectation": "从真实成果汇合，保留来源、差异和未决问题，必要时组织综合 Context。"},
+    "inapplicable": {"input": "只有一个 Context 已有完整结果，没有其他待整合成果。", "expectation": "继续当前交付，不制造综合线程。"},
+    "feedback": {"input": "汇合过程中用户指出其中一份证据来自已废弃版本。", "expectation": "标记证据版本和适用性，重新评估结论，避免把过期证据作为有效前提。"}
+  },
+  "focus/validate-before-build": {
+    "applicable": {"input": "桌面文件监听方案依赖未验证的系统事件完整性，已有 Context 正在做相同最小实验。", "expectation": "复用已有验证，明确假设与判据，依赖实施等待真实结果，独立工作可继续。"},
+    "inapplicable": {"input": "当前版本和环境已有可复现实验证据满足要求，只需小范围修改文案。", "expectation": "无需重复验证，继续已有工作。"},
+    "feedback": {"input": "实验发现事件会丢失，用户允许用定时扫描作为补偿。", "expectation": "保留失败证据，调整方案，后续实施继承真实结论与适用范围。"}
+  },
+  "focus/explore-validate-build": {
+    "applicable": {"input": "用户想开发桌面 Agent，目标尚未明确，关键未知项是后台权限是否允许自动化；已有 Context 包含初步需求。", "expectation": "先检查并复用已有进展，澄清目标，必要时独立验证权限；不固定创建三个 Context。"},
+    "inapplicable": {"input": "用户要求把已实现桌面 Agent 的窗口标题改为新名称，已有 Context 可以直接完成。", "expectation": "直接继续已有工作，不走固定探索、验证、实施阶段。"},
+    "feedback": {"input": "探索期间用户否定全自动操作，改为每次由用户确认；部分后台权限验证已完成。", "expectation": "按新目标重评安排，保留仍适用证据，旧自动操作要求只作为历史；证据充分时停止扩张。"}
+  }
+}

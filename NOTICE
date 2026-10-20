@@ -1,0 +1,19 @@
+Strategy
+Copyright 2026 Strategy contributors
+
+This product includes material from Focus (https://github.com/Leeminjing/Focus),
+licensed under Apache License 2.0. The original LICENSE is included.
+
+Source revision: 86905480be322d8a36c0a2df36e1469450fa22fd
+
+Unmodified copies:
+  docs/strategies/examples/*/STRATEGY.md -> strategies/<method>/STRATEGY.md
+  (combine, compete, diagnose, explore, revise, split, validate-before-build)
+
+Modified extraction:
+  backend/app/desktop/strategy_packages.py
+  backend/app/desktop/evolution_strategies.py
+  -> tools/focus_contract.py
+
+Only validation models, YAML loader and parser are retained. Runtime imports,
+hashing, export helpers, installation and persistence logic are omitted.
