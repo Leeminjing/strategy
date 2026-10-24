@@ -31,6 +31,7 @@ Skill 教会 Agent 完成一件事；Strategy 帮助 Focus 随着任务变化组
 | 拆分 | [任务拆分](strategies/split/STRATEGY.md) | 职责独立、依赖明确的工作 |
 | 调整 | [决策变更](strategies/revise/STRATEGY.md) | 新决定替代旧决定 |
 | 汇合 | [综合汇合](strategies/combine/STRATEGY.md) | 整合真实成果、保留差异与来源 |
+| OpenSpec 开发 | [OpenSpec 开发协作](strategies/openspec-development/STRATEGY.md) | 保留七个 Skill，按目标、反馈与证据组织开发 |
 
 探索、验证和实施是可能的 Context 演化结果。Patrol 可以继续已有 Context、按真实依赖并行推进，也可以在证据充分时停止扩张。
 

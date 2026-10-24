@@ -38,5 +38,19 @@
     "applicable": {"input": "用户想开发桌面 Agent，目标尚未明确，关键未知项是后台权限是否允许自动化；已有 Context 包含初步需求。", "expectation": "先检查并复用已有进展，澄清目标，必要时独立验证权限；不固定创建三个 Context。"},
     "inapplicable": {"input": "用户要求把已实现桌面 Agent 的窗口标题改为新名称，已有 Context 可以直接完成。", "expectation": "直接继续已有工作，不走固定探索、验证、实施阶段。"},
     "feedback": {"input": "探索期间用户否定全自动操作，改为每次由用户确认；部分后台权限验证已完成。", "expectation": "按新目标重评安排，保留仍适用证据，旧自动操作要求只作为历史；证据充分时停止扩张。"}
+  },
+  "leeminjing/openspec-development": {
+    "applicable": {
+      "input": "用户希望为已有 agent 增加上传文件能力，尚未建立 change；要求先只读架构，再逐个确认 proposal、specs、design、tasks，暂未批准实施。",
+      "expectation": "复用已有相关 Context，按理解缺口决定是否 explore；new 只建立 scaffold 并停止，取得方向后 continue 一次一个工件，等待真实依赖。继承 baseline、代码、范围和授权；不固定创建七条工作线，规划不自动批准 apply。"
+    },
+    "inapplicable": {
+      "input": "用户询问上传链路是否符合规范；同一代码、工件版本和检查范围已有充分 verify 报告，原 Context 也已掌握架构。",
+      "expectation": "直接引用仍有效的报告、版本与覆盖限制回答，不重复 explore、new 或 verify，不为策略创建 Context；只有发现覆盖缺口才补查，问题回答充分时停止。"
+    },
+    "feedback": {
+      "input": "apply 已完成部分任务，用户明确将共享工作区改为按用户隔离，并引用旧 spec；相关 main specs 已同步，旧 Run 可能仍在运行。",
+      "expectation": "复用原工作线，识别受影响工件、代码、测试、验证和同步结果；暂停依赖旧路径的实施，保留独立成果，按授权修订后恢复。按输入版本核对旧 Run 结果，重验失效范围并重新比较同步差异；不从 new 全部重跑，不声称消息到来就已取消 Run。"
+    }
   }
 }

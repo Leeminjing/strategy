@@ -1,0 +1,125 @@
+{
+  "created_date": "2026-10-24",
+  "focus_revision": "86598dfb48b884e38ec7667987cbfe36e363ea85",
+  "skills": [
+    {
+      "name": "openspec-explore",
+      "source_path": ".codex/skills/openspec-explore/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-explore/SKILL.md",
+      "sha256": "ce0d8c284cc8ad59475b42d346bfe71d517ec3e627ae61d8eff8d2401ffe0af5",
+      "bytes": 11116,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": true
+    },
+    {
+      "name": "openspec-new-change",
+      "source_path": ".codex/skills/openspec-new-change/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-new-change/SKILL.md",
+      "sha256": "cdb2596f6445ad121179552ca8410235f824132686f9769b3e30aee35cab7b96",
+      "bytes": 2973,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": true
+    },
+    {
+      "name": "openspec-continue-change",
+      "source_path": ".codex/skills/openspec-continue-change/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-continue-change/SKILL.md",
+      "sha256": "fb69b1a3bc6658e719df7d0e1b723424d42e988e97ce51804cac2446591890e1",
+      "bytes": 5470,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": true
+    },
+    {
+      "name": "openspec-apply-change",
+      "source_path": ".codex/skills/openspec-apply-change/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-apply-change/SKILL.md",
+      "sha256": "b3a7d2dc8373b5cf3229205ff119b858a3bf510ed4fb94830e6d317e23da12aa",
+      "bytes": 5384,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": true
+    },
+    {
+      "name": "openspec-verify-change",
+      "source_path": ".codex/skills/openspec-verify-change/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-verify-change/SKILL.md",
+      "sha256": "fd7463f6b40685fdcbd00590a3545f92fb1f171c18e58a07d5fe6aaf5770fab4",
+      "bytes": 7084,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": true
+    },
+    {
+      "name": "openspec-sync-specs",
+      "source_path": ".codex/skills/openspec-sync-specs/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-sync-specs/SKILL.md",
+      "sha256": "bf38d7151c179e2f77894b301d0949144814df5a06eab307e1204daa98067de6",
+      "bytes": 5108,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": false
+    },
+    {
+      "name": "openspec-archive-change",
+      "source_path": ".codex/skills/openspec-archive-change/SKILL.md",
+      "snapshot_path": "resources/skills/openspec-archive-change/SKILL.md",
+      "sha256": "5ed58088cf84dd8270ae14570d7317e3c950f384c5024a56ea544ad11b1ad1af",
+      "bytes": 4698,
+      "metadata_version": "1.0",
+      "generated_by": "1.4.1",
+      "agents_copy_matches": true
+    }
+  ],
+  "focus_references": [
+    {
+      "relative_path": "skills/public/focus-skill-to-strategy/SKILL.md",
+      "sha256": "d6020f368725893a7625256b5bc86ec7979b8663388faf3b0283eca44972eab9"
+    },
+    {
+      "relative_path": "docs/strategies/README.md",
+      "sha256": "daef5b6a10330ddbe824622ff0c9d0c70dd9cdd37bf24396a3eadc36845fda06"
+    },
+    {
+      "relative_path": "backend/app/desktop/strategy_packages.py",
+      "sha256": "b888c268cf55796e728c425c3bd26336b95185cc0f862d1f479317c36ec085a2"
+    },
+    {
+      "relative_path": "backend/app/desktop/evolution_strategies.py",
+      "sha256": "5e7dc93aff70dbb690a8f63e0ae4381f9e1313e0a49d0c93da7e4315d3f82b16"
+    },
+    {
+      "relative_path": "docs/strategies/examples/validate-before-build/STRATEGY.md",
+      "sha256": "c94467110d0de3174c4ce88e0d7db240ffe63248c84f697a32ea5a4b0eb5e834"
+    }
+  ],
+  "workflow_evidence": {
+    "markdown_count": 31,
+    "image_count": 3,
+    "publication_note": "用户提供的四组开发日志已在本地阅读；不公开其原文、路径、文件清单、哈希或图片。",
+    "linked_notes": "日志内其他笔记链接未递归读取，不作为独立证据。"
+  },
+  "validation": {
+    "parser": "backend.app.desktop.strategy_packages.parse_strategy",
+    "parse_success": true,
+    "roundtrip_identity_equal": true,
+    "section_characters": {
+      "applicability": 1080,
+      "evolution": 8237,
+      "inheritance": 1998
+    },
+    "file_bytes": 26005,
+    "package_fingerprint": "13e361c4901f6636ea42ff74acbadee9ae8d75fca95d5a737c7e977c0169838d",
+    "source_snapshots_byte_identical": true,
+    "dynamic_openspec_or_loop_execution": false
+  },
+  "publication": {
+    "repository": "https://github.com/Leeminjing/strategy",
+    "path": "strategies/openspec-development",
+    "id": "leeminjing/openspec-development",
+    "version": "1.0.0",
+    "previous_local_draft_id": "local/openspec-development"
+  }
+}
